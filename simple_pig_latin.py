@@ -15,6 +15,6 @@ def pig_it(text):
             right_str = "".join(right_list[0])
             full.append(right_str)
         else:
-            full.append('!')
+            full.append(word)
     print(" ".join(full))
     return " ".join(full)
