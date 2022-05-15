@@ -3,6 +3,7 @@ Move the first letter of each word to the end of it, then add "ay" to the end of
 Leave punctuation marks untouched.
 '''
 
+
 def pig_it(text):
     full = []
     for word in text.split(' '):
@@ -14,6 +15,6 @@ def pig_it(text):
             right_str = "".join(right_list[0])
             full.append(right_str)
         else:
-            full.append('!')
+            full.append(word)
     print(" ".join(full))
     return " ".join(full)
