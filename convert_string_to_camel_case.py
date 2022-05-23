@@ -4,6 +4,7 @@ The first word within the output should be capitalized only if the original word
 (known as Upper Camel Case, also often referred to as Pascal case).
 '''
 
+
 def to_camel_case(text):
     conwert_word = (text.replace('_', '-').split('-'))[0]
     for word in text.replace('_', '-').split('-')[1:]:
