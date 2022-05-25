@@ -20,8 +20,6 @@ def find_missing_letter(chars):
             for point in range(letter, len(letters)):
                 if letters[point] not in chars:
                     return (letters[point])
-        else:
-            continue
 
 
 print(find_missing_letter(['a', 'b', 'c', 'd', 'f']))
